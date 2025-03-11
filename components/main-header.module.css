@@ -1,0 +1,19 @@
+.link {
+    text-decoration: none;
+    color: #ddd6cb;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.link:hover {
+    background-color: #ddd6cb;
+    color: #1a1a1a;
+}
+
+.nav {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 1rem 0;
+}

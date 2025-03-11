@@ -1,0 +1,30 @@
+.link {
+    text-decoration: none;
+    color: #ddd6cb;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.newsItem:hover {
+    box-shadow: 0 0 10px rgba(225, 203, 203, 0.5);
+}
+.newsItem {
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    /* margin: 1rem; */
+    /* width: max-content; */
+}
+
+.newsList {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+    padding: 0.25rem;
+}
+
+.newsList .title {
+    display: block;
+    padding: 1rem;
+}
