@@ -193,3 +193,19 @@ ul {
   text-align: center;
   margin-top: 3rem;
 }
+
+.fullscreen-image {
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullscreen-image img {
+  /* should wrap inside parent modal style */
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 4px;
+}

@@ -1,4 +1,4 @@
-// "use client";
+
 import NewsList from "@/components/news-list";
 import {
   getAvailableNewsMonths,
@@ -44,7 +44,7 @@ const NewsPerYear = ({ params }) => {
   return (
     <header id="archive-header">
       <nav>
-        <ul>
+        <ul id="archive-filter">
           {links.map((link) => {
             const value = getMonthNameFromNumber(link);
             const href = selectedYear
